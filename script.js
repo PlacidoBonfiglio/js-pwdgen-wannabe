@@ -30,4 +30,6 @@ const favColor = prompt('what is your favourite color?', 'Black');
 console.log(favColor, typeof favColor);
 
 // PROCESSING PHASE
-//
+// 6. Add up the strings to generate a password
+const newPassword = firstName + lastName + favColor + pwdNumber;
+console.log(newPassword);
