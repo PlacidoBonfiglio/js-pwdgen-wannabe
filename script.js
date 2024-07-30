@@ -33,3 +33,7 @@ console.log(favColor, typeof favColor);
 // 6. Add up the strings to generate a password
 const newPassword = firstName + lastName + favColor + pwdNumber;
 console.log(newPassword);
+
+// OUTPUT PHASE
+// 7. Insert the result into the DOM
+resultElement.innerHTML = `The new password I generated for you is: <strong>${newPassword}</strong>`;
