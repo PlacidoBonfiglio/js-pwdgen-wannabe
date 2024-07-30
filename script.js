@@ -12,4 +12,9 @@ console.log('JS OK')
 const resultElement = document.getElementById('pwdgen');
 console.log(resultElement);
 
+// DATA COLLECTION PHASE
 // 2. Ask the user for his or her name
+const firstName = prompt('What is your name?', 'Dino');
+console.log(firstName, typeof firstName);
+
+// 3. Ask the user for his or her last name
