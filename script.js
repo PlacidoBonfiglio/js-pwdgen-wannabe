@@ -18,3 +18,5 @@ const firstName = prompt('What is your name?', 'Dino');
 console.log(firstName, typeof firstName);
 
 // 3. Ask the user for his or her last name
+const lastName = prompt('What is your last name?', 'Bonfiglio');
+console.log(lastName, typeof lastName);
